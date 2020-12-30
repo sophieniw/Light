@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.GalleryActivity">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/post_list"
+        android:layout_width="300dp"
+        android:layout_height="520dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"></androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/btnEdit"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="79dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Share"
+        android:textAllCaps="false"
+        android:textColor="#FBAD0C"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPortal"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="86dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="My Space"
+        android:textAllCaps="false"
+        android:textColor="#FBAD0C"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEdit" />
+
+    <Button
+        android:id="@+id/btnSignout"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="89dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="sign out"
+        android:textColor="#2196F3"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/etReact"-->
+<!--        android:layout_width="156dp"-->
+<!--        android:layout_height="45dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:ems="10"-->
+<!--        android:hint="You are not alone."-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:textColor="#E91E63"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.262"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tvPostView" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnSavePost"-->
+<!--        style="@style/Widget.AppCompat.Button.Borderless.Colored"-->
+<!--        android:layout_width="74dp"-->
+<!--        android:layout_height="42dp"-->
+<!--        android:text="Save"-->
+<!--        android:textColor="#FFB907"-->
+<!--        android:textColorHint="#E2DAB6"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.204"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/btnReact"-->
+<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnReact"-->
+<!--        style="@style/Widget.AppCompat.Button.Borderless.Colored"-->
+<!--        android:layout_width="74dp"-->
+<!--        android:layout_height="42dp"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:text="Send"-->
+<!--        android:textColor="#FFB907"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.204"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/etReact"-->
+<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvReactNum"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="48dp"-->
+<!--        android:layout_marginLeft="48dp"-->
+<!--        android:textColor="#E91E63"-->
+<!--        android:textSize="18sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.142"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/etReact"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tvPostView"-->
+<!--        app:layout_constraintVertical_bias="0.165" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvPostView"-->
+<!--        android:layout_width="272dp"-->
+<!--        android:layout_height="223dp"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        android:inputType="textMultiLine"-->
+<!--        android:scrollbars="vertical"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.496"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.321" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

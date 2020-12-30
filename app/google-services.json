@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "868863089853",
+    "firebase_url": "https://light-33bda.firebaseio.com",
+    "project_id": "light-33bda",
+    "storage_bucket": "light-33bda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868863089853:android:80c423d8d54425e6412bd4",
+        "android_client_info": {
+          "package_name": "edu.cuny.light"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868863089853-bthg4osd6d91v1lp8cuoimne6vq1tv8n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.cuny.light",
+            "certificate_hash": "06338aab576a79b2e5286f5b5fcd91dbb029669c"
+          }
+        },
+        {
+          "client_id": "868863089853-hfq90q3htqht2l0qtqf9mso4m0u8chtt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh9i95CxYkKPngX1Q-bzpucpUTbYRNHZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868863089853-hfq90q3htqht2l0qtqf9mso4m0u8chtt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
